@@ -7,6 +7,7 @@ class Coder(Employee):
     b = 20
     def __init__(self) :
        print("Constructor Of Coder")
+       super().__init__()#bap ke niye ase 
 
 class Programer(Coder):
     c = 30
